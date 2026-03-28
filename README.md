@@ -1,1 +1,1 @@
-.
+https://runwayanshulmanagementsystem.netlify.app/
