@@ -14,14 +14,28 @@
     <meta name="twitter:card" content="image" />
   </head>
 
-  <body>
-    <div id="root"></div>
+ <body>
+  <div id="root"></div>
 
-    <!-- Footer Copyright -->
-    <p style="font-size:1rem; text-align:center; margin-top: 2rem;">
-      &copy; 2025 Anshul Bhilare. All rights reserved.
-    </p>
+  <!-- Footer -->
+  <footer>
+    © 2025 Anshul Bhilare. All rights reserved.
+  </footer>
 
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  <script type="module" src="/src/main.tsx"></script>
+
+  <style>
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      font-size: 12px;   /* smaller text */
+      color: #888;       /* soft gray */
+      padding: 8px 0;
+      background: transparent;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</body>
 </html>
