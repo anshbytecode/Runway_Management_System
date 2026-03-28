@@ -17,7 +17,6 @@
  <body>
   <div id="root"></div>
 
-  <!-- Footer -->
   <footer>
     © 2025 Anshul Bhilare. All rights reserved.
   </footer>
@@ -25,13 +24,21 @@
   <script type="module" src="/src/main.tsx"></script>
 
   <style>
+    body {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    #root {
+      flex: 1; /* pushes footer down */
+    }
+
     footer {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
       text-align: center;
-      font-size: 12px;   /* smaller text */
-      color: #888;       /* soft gray */
+      font-size: 12px;
+      color: #888;
       padding: 8px 0;
       background: transparent;
       font-family: Arial, sans-serif;
